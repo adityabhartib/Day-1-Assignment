@@ -11,8 +11,7 @@ public class sumFirstNaturalNumber {
         int Sum = 0;
         for (int i =1; i<=Number; i++)
             Sum=Sum+i;
-        System.out.println("First N Natural Number Sum Is :"+Sum);
+        System.out.println("First N Natural Number Sum is :"+Sum);
 
     }
-
 }
