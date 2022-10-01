@@ -1,4 +1,4 @@
-package com.bridgelabz;
+package com.bridgelabz.basics;
 
 public class HalfTringle {
     public static void main(String[] args) {

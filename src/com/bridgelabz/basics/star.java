@@ -1,4 +1,4 @@
-package com.bridgelabz;
+package com.bridgelabz.basics;
 
 public class star {
     public static void main(String[] args) {
