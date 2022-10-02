@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class ArmstrongNumber {
     public static void main(String[] args) {
-        int n, arm = 0, rem, c;
+        int  arm = 0, rem, c;
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter Number: ");
-        n =scan.nextInt();
+        int n = scan.nextInt();
         c = n;
         while (n > 0) {
             rem = n % 10;
@@ -15,8 +15,8 @@ public class ArmstrongNumber {
             n = n / 10;
         }
         if (c == arm)
-            System.out.println(" Armstrong Number");
+            System.out.println(n + " Armstrong Number");
         else
-            System.out.println(" Not Armstrong Number");
+            System.out.println(n + " Not Armstrong Number");
     }
 }
