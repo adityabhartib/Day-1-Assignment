@@ -1,8 +1,7 @@
 package com.bridgelabz.basics;
 
 import java.util.Scanner;
-
-class ArmtrongNumberInGivenRange {
+public class ArmtrongNumberInGivenRange {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter lower range : ");

@@ -3,24 +3,18 @@ package com.bridgelabz.basics;
 import java.util.Scanner;
 
 public class GreaterBNThreeNumber {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter First Number: ");
-        int num1 = scan.nextInt();
-        System.out.println("Enter Secand Number: ");
-        int num2 = scan.nextInt();
-        System.out.println("Enter Third Number: ");
-        int num3 =scan.nextInt();
-        //comparing num1 with other numbers
+    static void largerAmonngThree(int num1, int num2, int num3) {
         if ((num1 >= num2) && (num1 >= num3))
-            System.out.println (num1 + " is the greater");
 
-            //checking if num2 is greatest
+            System.out.println(num1 + " is the greater");
         else if (num2 >= num1 && num2 >= num3)
-            System.out.println (num2 + " is the greater");
 
-            // num3 has to be greatest then if not above
+            System.out.println(num2 + " is the greater");
         else
-            System.out.println (num3 + " is the greater");
+            System.out.println(num3 + " is the greater");
+    }
+
+    public static void main(String[] args) {
+        largerAmonngThree(10,2,13);
     }
 }
