@@ -1,9 +1,9 @@
-package com.bridgelabz.basics;
-
+package com.bridgelabz.Assignment;
+;
 import java.util.Scanner;
 
-public class LeapYear {
-   static void checkLeapyear(int year) {
+public class leapyear {
+    static void checkLeapyear(int year) {
         if (year % 400 == 0)
             System.out.println(year + " is a Leap Year");
 
@@ -13,11 +13,11 @@ public class LeapYear {
         else
             System.out.println(year + " is not a Leap Year");
     }
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter Year :");
-        int year = scan.nextInt();
-        checkLeapyear(year);
 
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Enter Year: ");
+        int year=scan.nextInt();
+        checkLeapyear(year);
     }
 }

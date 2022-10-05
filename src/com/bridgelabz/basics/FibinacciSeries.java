@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class FibinacciSeries {
     public static void main(String[] args) {
-        System.out.println("---Welcome to fibonnic series----");
         Scanner scan=new Scanner(System.in);
         System.out.println("Enter Number: ");
         int num =scan.nextInt();

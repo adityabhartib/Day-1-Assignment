@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class PositiveNegative {
     public static void main(String[] args) {
+        System.out.println("Helloworld");
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter Number: ");
