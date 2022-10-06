@@ -3,25 +3,25 @@ package com.bridgelabz.basics;
 import java.util.Scanner;
 
 public class StrongNumber {
-    static void detectStrong(int num) {
-
-        int fact=1;
-        int reminder=num%10;
-        while (reminder==0)
-        for (int i=1;i<=reminder;i++){
-            fact=fact*i;
+    static void checkStrong(int num) {
+        int fact = 1, rem, sum=0,flag=sum;
+        rem = num % 10;
+            for (int i = 1; i <= rem; i++) {
+                fact = fact * i;
+                num=num/10;
+                sum = sum+fact;
         }
-        System.out.println(fact);
-        if (fact == num) {
-            System.out.println(num + " is Strong Number");
-        } else {
-            System.out.println(num + " is not a Strong Number");
+        if(flag==num) {
+            System.out.println("Strong Number");
+        }else{
+            System.out.println("Not Strong Number");
         }
     }
-    public static void main (String[]args){
+
+    public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
-        System.out.println("Enter Number: ");
-        int num=scan.nextInt();
-        detectStrong(num);
+        System.out.println("Enter Number : ");
+        int num =scan.nextInt();
+        checkStrong(num);
     }
 }
