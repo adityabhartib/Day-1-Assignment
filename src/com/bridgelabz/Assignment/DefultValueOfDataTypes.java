@@ -1,25 +1,26 @@
 package com.bridgelabz.Assignment;
 
 public class DefultValueOfDataTypes {
+    static byte b;
+    static short s;
+    static int i;
+    static long l;
+    static float f;
+    static double d;
+    static char c;
+    static boolean bl;
+
     public static void main(String[] args) {
-        byte b = 0;
-        short s = 0;
-        int i = 0;
-        long l = 0;
-        float f = 0;
-        double d = 0;
-        char c = 'a';
-        String str = null;
-        boolean  b1 = false;
-        System.out.println(b);
-        System.out.println(s);
-        System.out.println(i);
-        System.out.println(l);
-        System.out.println(f);
-        System.out.println(d);
-        System.out.println(c);
-        System.out.println(s);
-        System.out.println(b1);
-        System.out.println(str);
+
+        System.out.println(" The Default Values of Primitive Data Types Are : ");
+        System.out.println(" Byte :" +b);
+        System.out.println(" Short : " +s);
+        System.out.println(" Int : " +i);
+        System.out.println(" Long : " +l);
+        System.out.println(" Float : " +f);
+        System.out.println(" Double : " +d);
+        System.out.println(" Char : " +c);
+        System.out.println(" Boolean : " +bl);
+
     }
 }
