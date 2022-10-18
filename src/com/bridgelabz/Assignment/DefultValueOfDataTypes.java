@@ -9,6 +9,7 @@ public class DefultValueOfDataTypes {
     static double d;
     static char c;
     static boolean bl;
+    static String str;
 
     public static void main(String[] args) {
 
@@ -21,6 +22,7 @@ public class DefultValueOfDataTypes {
         System.out.println(" Double : " +d);
         System.out.println(" Char : " +c);
         System.out.println(" Boolean : " +bl);
+        System.out.println(" String : "+str);
 
     }
 }

@@ -10,7 +10,7 @@ public class Calculator {
         n1 = scan.nextInt();
         n2 = scan.nextInt();
         System.out.println("Select Operation");
-        System.out.println("1. Addition "+"2.Substraction" + "3.Multipliction" + "4.Division" + "5.exit");
+        System.out.println("1.Addition \n"+"2.Substraction" + "\n3.Multipliction" + "\n4.Division" + "\n5.exit");
         ch = scan.nextInt();
 
         if (ch == 1) {

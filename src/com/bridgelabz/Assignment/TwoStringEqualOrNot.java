@@ -14,7 +14,7 @@ public class TwoStringEqualOrNot {
         Scanner scan = new Scanner(System.in);
         System.out.println("Input First String: ");
         String s1 = scan.nextLine();
-        System.out.println("Input Secand String: ");
+        System.out.println("Input Second String: ");
         String s2 = scan.nextLine();
         StringCheck(s1,s2);
 

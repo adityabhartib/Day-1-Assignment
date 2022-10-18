@@ -11,7 +11,7 @@ public class PrimeNumberInRange {
         int num2 = scan.nextInt();
 
         for (int i = num1; i <= num2; i++) {
-            for (j = 2; j <= i; j++) {
+            for ( j = 2; j <= i; j++) {
                 if (i % j == 0)
                     break;
             }

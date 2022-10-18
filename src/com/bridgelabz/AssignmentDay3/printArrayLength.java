@@ -2,10 +2,10 @@ package com.bridgelabz.AssignmentDay3;
 
 public class printArrayLength {
     public static void main(String[] args) {
-        int arr[]={2,4,45,56,676875,878,5757,4647,758,575,754,578};
+        int arr[]={1,2,3,4,5,6,7,8,9,10,11};
         for (int i=0;i< arr.length;i++){
-            System.out.println(arr[i]+" ");
+            System.out.print(arr[i]+" ");
         }
-        System.out.print("Array Length:"+arr.length);
+        System.out.println("\nArray Length: "+arr.length);
     }
 }

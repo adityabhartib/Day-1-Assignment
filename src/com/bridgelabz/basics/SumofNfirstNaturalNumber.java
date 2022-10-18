@@ -7,10 +7,10 @@ public class SumofNfirstNaturalNumber {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter Number: ");
         int num = scan.nextInt();
-//        int sum = 0;
-//
-//        for (int i = 1; i <= n; i++)
-//            sum += i;
+        int sum = 0;
+
+        for (int i = 1; i <= num; i++)
+            sum += i;
         System.out.println (num*(num+1)/2);
     }
 }

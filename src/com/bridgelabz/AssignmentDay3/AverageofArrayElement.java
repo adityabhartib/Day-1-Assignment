@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class AverageofArrayElement {
     public static void main(String[] args) {
         int a[] = new int[5];
-        int sum = 0,ave=0;
+        int sum = 0,ave;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Array Elements: ");
 
